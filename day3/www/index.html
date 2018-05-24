@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Express Webapp</title>
+	<script type="text/javascript">
+		
+		var ws = new WebSocket("ws://localhost:3000");
+		ws.onopen = function(evt){
+			console.log(evt.data);
+		};
+		ws.onmessage = function(evt){
+			ws.send("Message to send");
+			console.log("Sent message");
+		};
+		ws.onclose = function(evt){
+			console.log("Connection closed");
+		};
+
+	</script>
+</head>
+<body>
+	<h1>Express Webapp</h1>
+	<hr />
+	<a href="/about">About</a>
+	&middot;
+	<a href="/contact-us">Contact us</a>
+</body>
+</html>

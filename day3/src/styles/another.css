@@ -1,0 +1,19 @@
+/*another.css*/
+
+div.box {
+	border: 2px dashed black;
+	padding: 20px;
+	width: 300px;
+	height: 300px;
+	display: inline-block;
+	border-radius: 10px;
+	text-align: center;
+}
+
+/*
+index.html: 
+<div class="box">Hello, world!</div>
+
+app.js: 
+require("./styles/another.css");
+*/

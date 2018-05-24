@@ -1,0 +1,24 @@
+{
+  "name": "day1",
+  "version": "1.0.0",
+  "description": "This is an exercise project at Unisys",
+  "main": "ex01.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  },
+  "scripts": {
+    "test": "mocha --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kayartaya-vinod"
+  },
+  "keywords": [
+    "demo",
+    "apps"
+  ],
+  "author": "Vinod <vinod@vinod.co>",
+  "license": "MIT"
+}

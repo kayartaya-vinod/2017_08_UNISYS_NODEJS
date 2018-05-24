@@ -1,0 +1,11 @@
+/*default.css*/
+
+body {
+	padding: 50px;
+	font-family: monaco;
+	background-color: tan;
+}
+
+h1:first-child {
+	color: darkred;
+}
